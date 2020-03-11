@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Back Functions</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="input-section">
+      <h4>Create Developer Info</h4>
+      <form id="input-form" autocomplete="off">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="firstname" type="text" class="validate" maxlength="20" />
+            <label for="firstname" id="firstnamelabel">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="lastname" type="text" class="validate" maxlength="20" />
+            <label for="lastname" id="lastnamelabel">Last Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">date_range</i>
+            <input id="age" type="text" class="validate" maxlength="3" />
+            <label for="age" id="agelabel">Age</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">settings</i>
+            <input id="job" type="text" class="validate" maxlength="20" />
+            <label for="job" id="joblabel">Job</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">call</i>
+            <input id="phoneno" type="text" class="validate" maxlength="10" />
+            <label for="phoneno" id="phonenolabel">Phone Number</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">home</i>
+            <input id="companyname" type="text" class="validate" maxlength="20" />
+            <label for="companyname" id="companynamelabel">Company Name</label>
+          </div>
+
+          <button class="btn waves-effect waves-light" id="button" type="submit">
+            Submit<i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="card-section">
+      <div class="card-section-row row"></div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
